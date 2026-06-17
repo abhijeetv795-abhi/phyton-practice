@@ -1,0 +1,309 @@
+# print("hello world")
+
+
+# x = 2.23
+# y = 3.50
+
+# z = x + y
+# print("sum: ", z)
+
+#    type casting.........
+
+# x = input("enter first value for sum")
+# y = input("enter second value for sum")
+# z = (x+y)
+# print("sum:",z)
+
+# x = int(input("enter first value for sum:"))
+# y = int(input("enter second value for sum:"))
+# z = x + y
+# print("sum:",z)
+
+# x = input("enter first value for sum:")
+# y = input("enter second value for sum:")
+# z = int(x) + int(y)
+# print("sum:",z)
+
+
+#    find hypotenius......   H ** 2 = p ** 2 + b ** 2.....
+
+# p = 5
+# b = 6
+#h = ( p ** 2 + b ** 2) ** 1/2
+
+# print(h)
+
+# p = int(input("perpendicular of triaangle:"))
+# b = int(input("base of triaangle:"))
+# h = (((p ** 2) + (b ** 2)) ** (1/2))
+
+# print(h)
+# print(h)
+
+# print("+-----------------+")
+# print("|                 |")
+# print("|                 |")
+# print("|                 |")
+# print("|                 |")
+# print("|                 |")
+# print("+-----------------+")
+
+# print("+" + "-" * 10 + "+")
+# print(("|" + ' ' * 10 + "|\n")*5, end="")
+# print("+" + "-" * 10 + "+")
+
+# print("hello how are you ?", end="\n")
+# print("i am good")
+
+# print("hello how are you ?", end=" ")
+# print("i am good")
+
+# print("hello how are you ?", end="")
+# print("i am good")
+
+
+# print(("+" + "-" * 10 + "+\n")+ (("|" + ' ' * 10 + "|\n")*5) + ("+" + "-" * 10 + "+") )
+# print("+" + "-" * 10 + "+")
+# print(("|" + ' ' * 10 + "|\n")*5, end="")
+# print("+" + "-" * 10 + "+")
+
+# city = 'Bhopal'
+
+# 012345 <- index positions
+# -6-5-4-3-2-1 <- negative indices 
+
+# print(city[0])          # B     (first character)
+# print(city[-5])         
+# print(city[2])          # o
+# print(city[-1])         # l
+# print(city[-3])         # p
+
+# print(2 == 2)
+# print(2 == 2.0)
+
+# var = 0             # assingning 0 to var
+# print(var == 0)
+
+# var = 1             # assingning 1 to var
+# print(var == 0)
+
+# var = 13
+
+# if var == 11:
+#     print("var is 11")
+#     print("hello")
+
+# elif var == 12:
+#     print("var is 12")
+#     print("hi")
+
+# else:
+#     print("var is not 11 or 12")
+
+# number1 = int(input("enter the first number:"))
+# number2 = int(input("enter the second number:"))
+
+# if number1 > number2:
+#     larger_number = number1
+# else:
+#     larger_number = number2
+
+#     print(" the larger number is:",larger_number)
+
+
+# number1 = int(input("enter the first number:"))
+# number2 = int(input("enter the second number:"))
+
+
+# if number1 > number2: largere_number = number1
+# else: larger_number = number2
+
+# print(" the larger number is:", larger_number)
+
+# number1 = int(input("enter the first number:"))
+# number2 = int(input("enter the second number:"))
+# number3 = int(input("enter the third number:"))
+
+# largest_number = number1
+
+# if number2 > largest_number:
+#     largest_number = number2
+
+# if number3 > largest_number:
+#     largest_number = number3
+
+# print("the largest_number is :",largest_number)    
+
+
+# largest_number = max(number1,number2,number3)
+# lowest_number = min( number1, number2, number3)
+
+# print("the largest_number is:", largest_number)
+# print("the lowest_number is:", lowest_number)
+
+
+#     loop '''''''''''''''
+
+#    while loop''''''''''
+
+# while True:
+#     print("im stuck inside a loop.")
+
+# largest_number = -9999999999
+
+# number = int(input("enter a number or type -1 to stop:"))
+
+# while number != -1:
+#     if number > largest_number:
+#         largest_number = number
+#     number = int(input("enter a number or type -1 to stop:"))
+
+# print("the largest number is:", largest_number)
+# 
+# 
+#    
+
+#      check odd - even  using loop'''''''''
+
+
+
+# num = int(input("please enter a number:"))
+# even_count = 0
+# odd_count = 0
+
+# while num != 0:
+#     if num % 2 ==0:
+#         even_count += 1
+
+#     else:
+#         odd_count += 1
+
+#     num = int(input("please enter a number:"))
+
+# print("even:",even_count)
+# print("odd:",odd_count)
+          
+# counter = 5.........condition 1'''''''
+# while counter != 0:
+#     print("inside the loop.",counter)
+#     counter -= 1
+# print("out side the loop.",counter)    
+          
+
+# counter = 5    ..............     condition 2  '''''''''''
+# while counter:
+#     print("inside the loop.",counter)
+#     counter -= 1
+# print("outside the loop.",counter)    
+
+
+#    '''''''''''''' for loop ''''''''''''''''''''''''
+
+# for counter in range(10):
+#     print("counter:",counter)
+
+# for counter in range(2,8):
+#     print("counter:",counter)
+
+#        break and  continue loop'''''''''''''''''
+
+#      break'''''''''''
+
+# print("the break instruction:")
+# for counter in range(1,5):
+#     if counter == 3:
+#         break
+#     print("indise the loop.",counter)
+
+# print("outside the loop.")    
+
+#   ''''' continue ''''''''''''
+
+# print("the break instruction:")
+# for counter in range(1,5):
+#     if counter == 3:
+#         continue
+            
+#     print("indise the loop.",counter)
+
+# print("outside the loop.")    
+
+# largest_number = -9999999999
+# counter = 0
+
+# while True:
+#     number = int(input("enter a number or type -1 to end the program:"))
+#     if number == -1:
+#         break
+#     counter += 1
+#     if number > largest_number:
+#         largest_number = number
+
+# if counter != 0:
+#     print("the largest number is:",largest_number) 
+
+# else:
+#     print("you haven't enterd any number.")           
+
+
+# largest_number = -9999999999
+# counter = 0
+# number = int(input("enter a number or type -1 to end the program:"))
+# while number != -1:
+#     if number == -1:
+#         continue
+#     counter += 1
+#     if number > largest_number:
+#         largest_number = number
+
+#     number = int(input("enter a number or type -1 to end the program:"))    
+
+# if counter:
+#     print("the largest number is:",largest_number) 
+
+# else:
+#     print("you haven't enterd any number.")           
+
+# counter = 1
+# while counter < 5:
+#     print(counter)
+#     counter += 1
+# else:
+#     print("else:",counter)
+
+# counter = 5
+# while counter < 5:
+#     print(counter)
+#     counter += 1
+# else:
+#     print("else:",counter)
+
+# for counter in range(5):
+#     print(counter)
+# else:
+#     print("else:", counter)    
+
+# counter = 111
+# for counter in range(2, 1):
+#    print(counter)
+# else:
+#    print("else:",counter)   
+
+
+# blocks = int(input("enter number of blocks:"))
+# counter = 0
+# while(blocks - counter > 0):
+#     counter += 1
+#     blocks = blocks - counter
+
+
+print("hieght of the pyramid:" ,counter)
+
+
+blocks = int(input("enter number of blocks:"))
+counter = 0
+while(blocks - counter > 0):
+    counter += 1
+    blocks = blocks - counter
+
+print(f'hieght of the pyramid: {counter}')
