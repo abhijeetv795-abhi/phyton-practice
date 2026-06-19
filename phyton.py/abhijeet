@@ -297,13 +297,73 @@
 #     blocks = blocks - counter
 
 
-print("hieght of the pyramid:" ,counter)
+# print("hieght of the pyramid:" ,counter)
 
 
-blocks = int(input("enter number of blocks:"))
-counter = 0
-while(blocks - counter > 0):
-    counter += 1
-    blocks = blocks - counter
+# blocks = int(input("enter number of blocks:"))
+# counter = 0
+# while(blocks - counter > 0):
+#     counter += 1
+#     blocks = blocks - counter
 
-print(f'hieght of the pyramid: {counter}')
+# print(f'hieght of the pyramid: {counter}')
+
+
+#      list''''''''''
+
+# a list is a data set of pythan  '''''
+
+# numbers[]     #   declaration
+# numbers = [10,5,7,2,1] #      declaration and initialisation
+
+# print(numbers)
+# print(type(numbers))
+
+# print(numbers[0])
+# print(numbers[1])
+# print(numbers[2])
+# print(numbers[3])
+# print(numbers[4])
+
+# numbers[0]= 100
+# print(numbers)
+
+
+# numbers = [10,5,7,2,1]
+# print("original list contents:", numbers)    # printing original list contents'
+
+# numbers[0] = 111
+# print("new list contents:", numbers)      #   current list contents.
+# print("original list contents:", numbers)    # printing original list contents.
+
+
+# numbers[1] = numbers[4]    # copying value of the fifth element to the second'
+# print("new list contents:", numbers)    #   printing current list contents.
+
+
+# print(numbers)
+# print(len(numbers))      #  its a function -  len = lenght of the list ''''''
+
+
+# del numbers[1]      #  its a keyword -   del = delete any number in list ''''''
+
+# print(numbers)
+# print(len(numbers))
+
+
+# numbers = [111,7,2,1]
+# print(numbers[-1])         #    negative numbers index is start from  [-1]''''''''
+
+# print(numbers[-4])
+# print(len(numbers))
+
+# print(numbers[len(numbers) * -1])
+
+
+hat_list = [1,2,3,4,5]
+
+var = int(input("enter an integer to replace the middle element:"))
+
+hat_list[int(len(hat_list) // 2)] = var
+
+print(hat_list)
