@@ -396,7 +396,7 @@
 # list = [5,4,3,2,1]
 
 # for count in range(len(list)):
-#     print(list[count]
+#     print list[count]
 
 # list = []
 # for count in range(1,10):
@@ -412,13 +412,86 @@
 
 # print(my_list)    
 
-my_list = [1,2,3,4,5,6,7,8,9,10]
-for count in range(10):
-    my_list[count] +=1
+# my_list = [1,2,3,4,5,6,7,8,9,10]
+# for count in range(10):
+#     my_list[count] +=1
 
+# print(my_list)
+
+
+
+
+# my_list = [10,20,30,40,50,60,70,80,90,100]
+
+# sum = 0
+# for index in range(len(my_list)):
+#     sum += my_list[index]
+
+# print("sum:", sum)   
+
+# for element in x:
+#     sum += element
+# print(sum)
+
+# a = 10
+# b = 20
+
+# print("a:",a)
+# print("b:",b)
+
+# #
+# a, b = b , a
+# print("a:",a)
+# print("b:",b)
+
+
+
+
+# x = [1,2,3,4,5,6,7,8,9,10]
+
+# for i in range(len(x)):
+#     x += i
+
+# print(x)    
+
+
+
+
+# my_list = [10,1,8,3,5]
+# print(my_list)
+
+# my_list[0] , my_list[4] , = my_list[4] , my_list[0]
+
+# my_list[1] , my_list[3] , = my_list[3] , my_list[1]
+
+# print(my_list)
+
+  
+
+
+#  list sorting   '''''''''" {bubble sort process"}
+
+# my_list = [8,10,6,2,4]
+# print(f"original list {my_list}")
+# for index1 in range(len(my_list) - 1):
+#     for index in range(len(my_list) - 1):
+#         if (my_list[index] > my_list [index + 1] ):
+#             my_list[index] , my_list[index + 1] = my_list[index + 1] , my_list[index]
+
+# print(f"sorted list  {my_list}")
+
+
+
+my_list = [8,10,6,2,4,5,9,3,1,7]
 print(my_list)
+count = 0
+print(f"original list {my_list}")
+for index1 in range(len(my_list) - 1):
+      for index in range(len(my_list) - 1 - index1):
+        count +=1
+        if (my_list[index] > my_list [index + 1] ):
+            my_list[index] , my_list[index + 1] = my_list[index + 1] , my_list[index]
 
-
-
-
-    
+print(f"sorted list  {my_list}")
+print("my problem has run for :", count, "times")
+  
