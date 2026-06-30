@@ -619,9 +619,50 @@
 # print(list_2)         #   answer = 2,3,4  ''''''''''''
 
 
-list_1 = [1,2,3,4,5]
-list_2 = list_1 [-1:1]
+# list_1 = [1,2,3,4,5]
+# list_2 = list_1 [-1:1]
 
-print(list_2)            #    no anser   []     '''''''''''''
+# print(list_2)            #    no anser   []     '''''''''''''
+
+# my_list = [1,2,3,4,5]
+# del my_list
+# print(my_list)                 #   name error
+
+
+#  use of "in and not in"
+
+# my_list = [1,3,12,8,2]
+# print(5 in my_list)                #  false
+# print(5 not in my_list)            # true 
+# print(12 in my_list)               # true
+
+
+# even = []
+
+# for i in range(1, 30):
+#     if i % 2 == 0:
+#         even.append(i)
+
+# print("Even numbers:", even)
+
+
+
+#  find largest number in list[]'''''''''''
+
+# my_list = [17,3,11,5,1,9,7,15,13]
+# largest_number = my_list[0]
+
+# for element in my_list:
+#     if largest_number < element:
+#         largest_number = element
+
+# print(largest_number)         
+
+my_list = [17,3,11,5,1,9,7,15,13]
+
+for index in range(len(my_list)):
+    if my_list[index] == 5 :
+        print("5 is found at :", index)
+        break
 
 
